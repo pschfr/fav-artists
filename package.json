@@ -1,0 +1,27 @@
+{
+  "name": "fav-artists",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "zero",
+    "build": "zero build",
+    "start": "NODE_ENV=production zero",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pschfr/fav-artists.git"
+  },
+  "author": "Paul Schaefer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pschfr/fav-artists/issues"
+  },
+  "homepage": "https://github.com/pschfr/fav-artists#readme",
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-helmet": "^5.2.0",
+    "zero": "^1.0.9"
+  }
+}
