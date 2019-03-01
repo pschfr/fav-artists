@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/pschfr/fav-artists#readme",
   "dependencies": {
+    "lastfmapi": "^0.1.1",
     "react": "^16.8.3",
     "react-helmet": "^5.2.0",
     "zero": "^1.0.9"
