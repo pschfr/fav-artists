@@ -1,4 +1,5 @@
 // Require dependencies
+const dotenv = require('dotenv').config();
 const LastFM_API = require('lastfmapi');
 const LastFM = new LastFM_API({
 	'api_key': process.env.LAST_FM_KEY,
